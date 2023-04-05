@@ -1,0 +1,4 @@
+<p *ngFor="let item of goals | async">
+    {{ item.date }}: {{ item.temperatureC }}
+</p>
+<button mat-raised-button color="primary" (click)="logout()">Logout</button>
